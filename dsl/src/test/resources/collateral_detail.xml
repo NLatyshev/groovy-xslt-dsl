@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<entity>
+    <col_dtl>
+        <cas_id>cas_id</cas_id>
+        <ins_id>ins_id</ins_id>
+        <col_agrmt_id>col_agrmt_id</col_agrmt_id>
+        <col_agrmt_src_nme>col_agrmt_src_nme</col_agrmt_src_nme>
+        <prvr_pty_id>prvr_pty_id</prvr_pty_id>
+        <prvr_pty_src_nme>prvr_pty_src_nme</prvr_pty_src_nme>
+    </col_dtl>
+
+    <col_dtl>
+        <ins_id>ins_id</ins_id>
+        <col_agrmt_id>col_agrmt_id</col_agrmt_id>
+        <col_agrmt_src_nme>col_agrmt_src_nme</col_agrmt_src_nme>
+        <prvr_pty_id>prvr_pty_id</prvr_pty_id>
+        <prvr_pty_src_nme>prvr_pty_src_nme</prvr_pty_src_nme>
+    </col_dtl>
+
+    <col_dtl>
+        <col_agrmt_id>col_agrmt_id</col_agrmt_id>
+        <col_agrmt_src_nme>col_agrmt_src_nme</col_agrmt_src_nme>
+        <prvr_pty_id>prvr_pty_id</prvr_pty_id>
+        <prvr_pty_src_nme>prvr_pty_src_nme</prvr_pty_src_nme>
+    </col_dtl>
+</entity>
