@@ -1,3 +1,4 @@
 rootProject.name = 'samples'
 include 'groovy-xslt-dsl'
+include 'remove-diffgram'
 
