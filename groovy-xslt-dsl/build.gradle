@@ -1,0 +1,7 @@
+group 'com.github.nlatyshev'
+version '1.0-SNAPSHOT'
+
+dependencies {
+    compile group: 'commons-codec', name: 'commons-codec', version: '1.5'
+    testCompile group: 'xmlunit', name: 'xmlunit', version: '1.6'
+}
