@@ -1,6 +1,6 @@
 # Groovy XSLT DSL
 XSLT is good DSL for transformation XML documents, but in my opinion, it is a little bit complex, because it is based on XML.
-XML aproache has several problems, such as:
+XML approach has several problems, such as:
 * Verbosity
 * Calling external functions is complex
 * Debugging is not available
