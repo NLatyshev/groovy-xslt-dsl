@@ -74,6 +74,9 @@ public class SoapSessionSupportInterceptor implements ClientInterceptor {
         return true;
     }
 
+    @Override
+    public void afterCompletion(MessageContext messageContext, Exception ex) throws WebServiceClientException {}
+
     private MimeHeaders getMimeHeaders(WebServiceMessage message) {
         if (message instanceof SaajSoapMessage) {
             SOAPMessage soapMessage = ((SaajSoapMessage) message).getSaajMessage();

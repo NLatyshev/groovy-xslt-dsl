@@ -60,6 +60,9 @@ public class PayloadTransformingInterceptor extends TransformerObjectSupport imp
     }
 
     @Override
+    public void afterCompletion(MessageContext messageContext, Exception ex) throws WebServiceClientException {}
+
+    @Override
     public void setTransformerFactoryClass(Class<? extends TransformerFactory> transformerFactoryClass) {
         transformingInterceptor.setTransformerFactoryClass(transformerFactoryClass);
     }
